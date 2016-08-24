@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
     message = {
         content: 'A message',
-        author: 'Max'
+        author: 'Matt'
     };
 
 }
