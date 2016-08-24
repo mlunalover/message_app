@@ -3,8 +3,13 @@ import { Component } from '@angular/core';
 @Component({
     moduleId: module.id,
     selector: 'my-app',
-    templateUrl: 'app.template.html'
+    templateUrl: 'app.template.html',
+    styleUrls: ['app.component.css']
 })
 export class AppComponent {
-    message = 'A message';
+    message = {
+        content: 'A message',
+        author: 'Max'
+    };
+
 }
